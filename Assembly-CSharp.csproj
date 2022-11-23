@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{22BF2367-9403-4D19-DAFA-9E978F391AAA}</ProjectGuid>
+    <ProjectGuid>{96C6545C-BA78-ABD9-6A8A-AB0BBC57F4B3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CubeBehaviour.cs" />
+    <Compile Include="Assets\Scripts\SFXManager.cs" />
     <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_RotateCamera.cs" />
     <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_LightIntensityFade.cs" />
     <Compile Include="Assets\Scripts\SwerveInputSystem.cs" />
@@ -70,11 +71,11 @@
     <Compile Include="Assets\Scripts\CubeHandler.cs" />
     <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_Translate.cs" />
     <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_New.cs" />
+    <Compile Include="Assets\Scripts\MultiplierText.cs" />
     <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_LightFlicker.cs" />
     <Compile Include="Assets\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_AutoDestructShuriken.cs" />
-    <Compile Include="Assets\Scripts\CubeCollector.cs" />
-    <Compile Include="Assets\Scripts\MultiplierText.cs" />
     <Compile Include="Assets\Scripts\GameInfo.cs" />
+    <Compile Include="Assets\Scripts\CubeCollector.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -706,31 +707,31 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{E9D452B3-34E8-57D9-B893-01846003B16F}</Project>
+      <Project>{A71B53D8-8985-FC93-FCD1-B23BACCEAEC4}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
     <ProjectReference Include="ToonyColorsPro.Demo.Editor.csproj">
-      <Project>{28945C19-4F0A-56D2-1A34-50F9B9846AAE}</Project>
+      <Project>{AD744A4D-6272-A65B-F4D4-AA59E6E56991}</Project>
       <Name>ToonyColorsPro.Demo.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="KinoBloom.Runtime.csproj">
-      <Project>{7EAFB4AB-F5E5-450C-7992-7ECEED6CC217}</Project>
+      <Project>{95B106A1-2EC2-69F2-4D05-E41D1F183498}</Project>
       <Name>KinoBloom.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="CFXREditor.csproj">
-      <Project>{2E1252CC-3B5E-CF41-1FD4-259947CD2AF9}</Project>
+      <Project>{013867BE-2306-5ABC-6AF0-0FA3E3712AD2}</Project>
       <Name>CFXREditor</Name>
     </ProjectReference>
     <ProjectReference Include="CFXR.WelcomeScreen.csproj">
-      <Project>{4E6764EC-CEE5-8B84-7951-D5B943674E0F}</Project>
+      <Project>{60CD4E3A-1345-1E2D-1E5E-D7E3A3B85114}</Project>
       <Name>CFXR.WelcomeScreen</Name>
     </ProjectReference>
     <ProjectReference Include="CFXRDemo.csproj">
-      <Project>{49EFEEE0-7DC4-74B1-271F-66A33338B07B}</Project>
+      <Project>{6CE309DA-A389-5EF1-D34C-0E0D648E0029}</Project>
       <Name>CFXRDemo</Name>
     </ProjectReference>
     <ProjectReference Include="CFXRRuntime.csproj">
-      <Project>{07271148-AC57-F3DE-10F7-1BC354CC3AF4}</Project>
+      <Project>{D7D8231A-4370-EC64-7641-79F8E847EB61}</Project>
       <Name>CFXRRuntime</Name>
     </ProjectReference>
   </ItemGroup>

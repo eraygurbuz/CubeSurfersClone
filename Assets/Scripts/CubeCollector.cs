@@ -22,6 +22,7 @@ public class CubeCollector : MonoBehaviour
         {
             other.tag = "Cube";
             cubeHandler.AddBlock(other.gameObject);
+            SFXManager.sfxInstance.Audio.PlayOneShot(SFXManager.sfxInstance.cubeClip);
         }
 
         else if(other.tag == "Gem")
@@ -29,6 +30,7 @@ public class CubeCollector : MonoBehaviour
             Destroy(other.gameObject);
             Instantiate(gemParticle, other.gameObject.transform.position, Quaternion.identity);
             gameManager.TakeGem();
+            SFXManager.sfxInstance.Audio.PlayOneShot(SFXManager.sfxInstance.gemClip);
         }
 
         else if(other.tag == "Finish")
